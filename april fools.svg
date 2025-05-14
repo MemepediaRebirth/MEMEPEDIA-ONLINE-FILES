@@ -1,0 +1,37 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#121212"/>
+  
+  <!-- Cat Face -->
+  <g transform="translate(150, 100)">
+    <!-- Main Face -->
+    <circle cx="100" cy="100" r="85" fill="#FF9933"/>
+    
+    <!-- Ears -->
+    <path d="M30,40 Q5,5 25,25 L60,60 Z" fill="#FF9933"/>
+    <path d="M170,40 Q195,5 175,25 L140,60 Z" fill="#FF9933"/>
+    
+    <!-- Eyes -->
+    <circle cx="65" cy="90" r="12" fill="#121212"/>
+    <circle cx="135" cy="90" r="12" fill="#121212"/>
+    
+    <!-- Nose -->
+    <circle cx="100" cy="115" r="8" fill="#121212"/>
+    
+    <!-- Mouth -->
+    <path d="M85,130 Q100,140 115,130" stroke="#121212" stroke-width="4" fill="none"/>
+    
+    <!-- Whiskers -->
+    <line x1="30" y1="115" x2="70" y2="115" stroke="#121212" stroke-width="3"/>
+    <line x1="35" y1="130" x2="70" y2="125" stroke="#121212" stroke-width="3"/>
+    
+    <line x1="170" y1="115" x2="130" y2="115" stroke="#121212" stroke-width="3"/>
+    <line x1="165" y1="130" x2="130" y2="125" stroke="#121212" stroke-width="3"/>
+  </g>
+  
+  <!-- Text "MEMEPEDIA" -->
+  <text x="250" y="340" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="800" text-anchor="middle" fill="#FFFFFF">MEMEPEDIA</text>
+  
+  <!-- Text "REBIRTH" -->
+  <text x="250" y="390" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="600" text-anchor="middle" fill="#FFFFFF">REBIRTH</text>
+</svg>
